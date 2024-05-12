@@ -64,7 +64,7 @@ function Selectors({ updateCatalog }) {
     updateCatalog(allRecipes);
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 200);
   };
 
   const filterRecipesByCuisine = (recipes, cuisine) => {
@@ -148,7 +148,7 @@ function Selectors({ updateCatalog }) {
     fetchAndFilter();
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 200);
   };
 
   const mealTypeFilter = () => {
@@ -159,7 +159,7 @@ function Selectors({ updateCatalog }) {
     fetchAndFilter();
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 200);
   };
 
   const difficultyFilter = (difficulty) => {
@@ -176,7 +176,7 @@ function Selectors({ updateCatalog }) {
     fetchAndFilter();
     setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 200);
   };
 
   async function getAllIds(obj) {
