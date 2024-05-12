@@ -6,7 +6,7 @@ import { Additional } from "../components/Additional";
 import { Header } from "../components/Header";
 import { CardsList } from "../components/CardsList";
 import { getAllRecipes } from "../api";
-import { Loader } from "../components/Loader";
+// import { Loader } from "../components/Loader";
 
 function Home() {
   const [catalog, setCatalog] = useState([]);
@@ -26,9 +26,10 @@ function Home() {
     setCatalog(filteredData.recipes);
   };
 
+  //can add {loading && <Loader />}
+
   return (
     <>
-      {loading && <Loader />}
       <Header
         title={"Сборник рецептов из разных стран мира"}
         fontSize={"24px"}

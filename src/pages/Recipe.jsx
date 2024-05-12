@@ -28,9 +28,11 @@ function Recipe() {
       });
   }, [id]);
 
-  if (loading) {
-    return <Loader />;
-  }
+  //can add loader
+
+  // if (loading) {
+  //   return <Loader />;
+  // }
 
   if (id > 30) {
     return <h1>Блюдо не найдено</h1>;
