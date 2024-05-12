@@ -1,0 +1,19 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 12px;
+}
+
+.block_search {
+  height: calc(100vh - 128px);
+  background-color: white;
+  /*не уверен что так блок выглядит*/
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: auto;
+}
+
+.block_result {
+  height: calc(100vh - 128px);
+  background-color: lighten(#ffffff, 50%);
+}

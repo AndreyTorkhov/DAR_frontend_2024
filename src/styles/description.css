@@ -1,0 +1,19 @@
+.description {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-description {
+  padding: 24px;
+  height: 140px;
+  width: auto;
+}
+
+.text {
+  padding: 0 24px 24px 24px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}

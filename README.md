@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Сервис по подобору блюда
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## О проекте
 
-## Available Scripts
+Это веб-приложение, которое помогает пользователям выбрать рецепт в зависимости от выбранных фильтров. Он предоставляет возможность быстро и удобно найти подходящее блюдо для готовки.
 
-In the project directory, you can run:
+## Проблема, которую решает приложение
 
-### `npm start`
+Проблема выбора блюда для готовки часто становится актуальной, особенно когда нет конкретных предпочтений. Рецептоподборник помогает решить эту проблему, предоставляя пользователям широкий выбор рецептов и возможность фильтрации по различным параметрам.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Технологии и особенности
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Фильтрация рецептов в зависимости от выбора пользователя.
+- Возможность вывода случайного рецепта по кнопке.
+- Отдельная страница блюда при нажатии на карточку.
 
-### `npm test`
+## Установка и запуск
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Склонируйте репозиторий на свой компьютер:
 
-### `npm run build`
+git clone https://github.com/AndreyTorkhov/DAR_frontend_2024.git 2. Установите зависимости проекта с помощью пакетного менеджера `yarn`:
+cd receptopodbor
+yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Запустите приложение:
+   yarn start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. После этого приложение будет доступно в вашем браузере по адресу `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Технологии
 
-### `npm run eject`
+- **React**: JavaScript-библиотека для создания пользовательских интерфейсов.
+- **React Router**: Навигация для приложений React.
+- **CSS Flexbox**: CSS-модуль для создания более эффективного и предсказуемого макета.
+- **CSS Grid**: CSS-модуль для создания двумерных сеток.
+- **HTML5**: Последняя версия языка разметки веб-страниц.
+- **JavaScript (ES6+)**: Современная версия JavaScript для разработки веб-приложений.
+- **Git**: Распределенная система контроля версий.
+- **GitHub**: Платформа для совместной разработки и хранения кода.
+- **yarn**: Пакетный менеджер для установки зависимостей проекта.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Требования
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Для установки и запуска проекта необходим NodeJS версии 8 и выше.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Создание билда
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Чтобы создать билд проекта, выполните следующие команды:
+yarn build
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+После этого вы найдете скомпилированные файлы проекта в папке `build`.

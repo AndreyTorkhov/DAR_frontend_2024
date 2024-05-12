@@ -1,0 +1,38 @@
+.pagination-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-button {
+  width: 32px;
+  height: 32px;
+  margin: 0 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 1px;
+}
+
+.page-button:hover {
+  background-color: #aaa;
+}
+
+.page-button.active {
+  background-color: #333;
+  color: white;
+}
+
+.ellipsis {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+}
