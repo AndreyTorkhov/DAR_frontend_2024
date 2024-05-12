@@ -230,13 +230,15 @@ function Selectors({ updateCatalog }) {
     // eslint-disable-next-line
   }, [selectedCuisine, selectedMealType, selectedDifficulty]);
 
+  //can add Loader
+
   return (
     <div className="selectors-container">
-      {isLoading && (
+      {/* {isLoading && (
         <div className="loader">
           <Loader />
         </div>
-      )}
+      )} */}
       <div className="filter">
         <div className="filter-title">
           <h2 className="text-title">Кухня</h2>
