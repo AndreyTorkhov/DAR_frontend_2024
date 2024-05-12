@@ -18,12 +18,17 @@
 
 1. Склонируйте репозиторий на свой компьютер:
 
-git clone https://github.com/AndreyTorkhov/DAR_frontend_2024.git 2. Установите зависимости проекта с помощью пакетного менеджера `yarn`:
+git clone https://github.com/AndreyTorkhov/DAR_frontend_2024.git 
+
+2. Установите зависимости проекта с помощью пакетного менеджера `yarn`:
+
 cd receptopodbor
+
 yarn install
 
 3. Запустите приложение:
-   yarn start
+
+yarn start
 
 4. После этого приложение будет доступно в вашем браузере по адресу `http://localhost:3000`.
 
