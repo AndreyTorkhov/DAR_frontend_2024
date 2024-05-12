@@ -22,7 +22,7 @@ git clone https://github.com/AndreyTorkhov/DAR_frontend_2024.git
 
 2. Установите зависимости проекта с помощью пакетного менеджера `yarn`:
 
-cd receptopodbor
+cd dar_frontend_2024
 
 yarn install
 
